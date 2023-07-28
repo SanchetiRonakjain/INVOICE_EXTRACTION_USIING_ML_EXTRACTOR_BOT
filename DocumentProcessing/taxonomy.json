@@ -1,0 +1,332 @@
+﻿{
+  "DataContractVersion": "1.1",
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "EXPO_HUB.ACCOUNTS.Receipts",
+      "Group": "EXPO_HUB",
+      "Category": "ACCOUNTS",
+      "Name": "Receipts",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "EXPO_HUB.ACCOUNTS.Receipts.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "DocumentTypeId": "EXPO_HUB.ACCOUNTS.Financialdocuments",
+      "Group": "EXPO_HUB",
+      "Category": "ACCOUNTS",
+      "Name": "Financial documents",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "EXPO_HUB.ACCOUNTS.Financialdocuments.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": []
+    },
+    {
+      "DocumentTypeId": "EXPO_HUB.ACCOUNTS.invoices",
+      "Group": "EXPO_HUB",
+      "Category": "ACCOUNTS",
+      "Name": "invoices",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "EXPO_HUB.ACCOUNTS.invoices.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "EXPO_HUB.ACCOUNTS.invoices.VendorName",
+          "FieldName": "Vendor Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "EXPO_HUB.ACCOUNTS.invoices.VendorAdd",
+          "FieldName": "Vendor Add",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "EXPO_HUB.ACCOUNTS.invoices.BillTO",
+          "FieldName": "Bill TO",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "EXPO_HUB.ACCOUNTS.invoices.invoicenumber",
+          "FieldName": "invoice number",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "EXPO_HUB.ACCOUNTS.invoices.duedate",
+          "FieldName": "due date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#4ccea4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "EXPO_HUB.ACCOUNTS.invoices.SubTotal",
+          "FieldName": "SubTotal",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#af59f8"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "EXPO_HUB.ACCOUNTS.invoices.VAT",
+          "FieldName": "VAT",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#f638ca"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        },
+        {
+          "FieldId": "EXPO_HUB.ACCOUNTS.invoices.TOTAl",
+          "FieldName": "TOTAl",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7f86e6"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": ""
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "EXPO_HUB",
+      "Categories": [
+        "ACCOUNTS"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    },
+    {
+      "Name": "Turkish",
+      "Code": "tur"
+    }
+  ]
+}
